@@ -4,8 +4,8 @@ set (CMAKE_CXX_STANDARD 14)
 project(tiny_websockets_demo C CXX)
 
 add_subdirectory(tiny_websockets_lib)
-enable_testing()
-add_subdirectory(tests)
+#enable_testing()
+#add_subdirectory(tests)
 
 if(MSVC)
   # Force to always compile with W4
