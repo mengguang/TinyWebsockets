@@ -1,5 +1,5 @@
 #include <tiny_websockets/internals/websockets_endpoint.hpp>
-
+#include <cstring>
 namespace websockets { 
 
     CloseReason GetCloseReason(uint16_t reasonCode) {

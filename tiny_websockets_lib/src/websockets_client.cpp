@@ -3,6 +3,7 @@
 #include <tiny_websockets/message.hpp>
 #include <tiny_websockets/client.hpp>
 #include <tiny_websockets/internals/wscrypto/crypto.hpp>
+#include <cstring>
 
 namespace websockets {
     WebsocketsClient::WebsocketsClient() : WebsocketsClient(std::make_shared<WSDefaultTcpClient>()) {
